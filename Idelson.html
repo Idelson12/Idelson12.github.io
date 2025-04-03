@@ -14,7 +14,7 @@
 </head>
 <body>
     <h1>A.Muaga</h1>
-    <p>
+    <div style="color:rgb(141, 118, 99); text-align: center;">
         essas sao as nossas areas de operacao:
         <ol>
             <li>Consultorias juridicas</li>
@@ -30,10 +30,77 @@
             <li>outros</li>
         </ul>
         <image src="image/alface.jpeg" alt="foto de alface" width="300px">
-    </p>
-    <p>
-        <a href="http://google.com">Click here to acess google.com </a>
-    </p>
 
+    </div>
+    <div>
+        <a href="http://google.com">Click here to acess google.com </a>
+        <!--esta forma de adicionar o link, pode ser usada para identificar partes desta mesma pagina (links)-->
+    </div>
+    <div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ocean</th>
+                    <th>Avarage depth</th>
+                    <th>Maximum depth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pacific ocean</td>
+                    <td>4,200 m</td>
+                    <td>10.999 m</td>
+                </tr>
+                <tr>
+                    <td>Antlatic Ocoean</td>
+                    <td>3,094 m</td>
+                    <td>4,400 m</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+    <div>
+
+            <input type="text" placeholder="Full name" name="Name">
+    </div>
+
+
+    <div>
+
+        <input name="Password" type="Password" placeholder="Password">
+     
+
+    </div>
+
+
+    <div>
+
+        cor facorita?:
+        <input name="cor" type="radio" value="Green"> verde
+        <input name="cor" type="radio" value="red"> vermelho
+        <input name="cor" type="radio" value="white"> branco
+       
+    </div>
+    
+    <div>
+        <input name="Paises" list="Paises" placeholder="Pais">
+        <datalist id="Paises">
+            <option value="Moz">
+            <option value="Taz">
+            <option value="Usa">
+            <option value="Rsa">
+        </datalist>
+    </div>
+
+    <div>
+        <form>
+            <input type="submit">
+        </form>
+    </div>
 </body>
 </html>
